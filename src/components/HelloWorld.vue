@@ -31,10 +31,21 @@
 </template>
 
 <script>
+import axios from "axios"
+
+const obj = {
+  axios,
+  
+}
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  }, 
+  mounted: function(){
+    console.log(obj)
+	obj.axios.get('http://baidu.com')
   }
 }
 </script>

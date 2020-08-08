@@ -8,10 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.3.2",
-    "cytoscape-cola": "^2.3.0",
-    "vue": "^2.6.10",
-    "vue-cytoscape": "^1.0.6"
+    "axios": "^0.19.2",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",

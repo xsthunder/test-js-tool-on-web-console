@@ -3,7 +3,8 @@
 An reload cytoscape example, click test button to try.
 
 ## update guide
-update vue-cytoscape >= `1.0.6`
+
+install broswer plugin for cors
 
 **NOTE** deep copy may be unnecessary
 
